@@ -8,10 +8,12 @@ In the project directory, you can run:
 
 ### `npm start`
 
-The main files here in this repository is:
+The main files here in this repository are in the src folder:
 1. App.js
 2. App.css
 3. components folder
+
+ These files are compiled to get the output of the game.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
