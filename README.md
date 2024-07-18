@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This project was deployed on github pages and here is the link : https://kishore298.github.io/rock-paper-scissors-game/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
