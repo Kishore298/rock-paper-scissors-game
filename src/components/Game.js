@@ -29,6 +29,10 @@ class Game extends Component{
 		const choices = ["ROCK", "PAPER", "SCISSORS"];
 		const compChoice = choices[Math.floor(Math.random() * choices.length)];
 		const val = this.logic(playerChoice, compChoice)
+
+	        if (this.state.playerScore === 10 || this.state.compScore === 10){
+               alert("Game Over!!! Please restart to start the game again!!!.");
+			
 		if(val === 1  && this.state.playerScore < 10) {
 			console.log("Hello")
 			this.setState({
@@ -43,10 +47,9 @@ class Game extends Component{
 				computerVal : compChoice,
 				compScore : this.state.compScore +1
 			})
-		}  else  if (this.state.playerScore === 10 || this.state.compScore === 10){
-               alert("Game Over!!! Please restart to start the game again!!!.");
-        } 
-         else {
+		}  
+               } 
+                else {
 			console.log("Hello")
 			this.setState({
 				computerVal : compChoice,
